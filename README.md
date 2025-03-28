@@ -1,4 +1,4 @@
-# 📌Teste de Banco de Dados - ANS
+[10 MAIORES DESPESAS DE SINISTRO DO BRASIL - ULTIMO ANO.csv](https://github.com/user-attachments/files/19506326/10.MAIORES.DESPESAS.DE.SINISTRO.DO.BRASIL.-.ULTIMO.ANO.csv)# 📌Teste de Banco de Dados - ANS
 
 Este repositório contém as soluções para o teste técnico da ANS, que envolve o uso de SQL para criar, importar dados e realizar análises.
 
@@ -32,6 +32,8 @@ Utilize o script `query_analitica.sql` para consultar as operadoras com maiores 
 ## 🤝Resultado
 O banco de dados utilizado foi o PostgreSQL criando uma database com o nome Intuitive e fazendos suas demais tabelas no script. O PostgreSQL tem uma forma diferente do MYSQL para exportar arquivos então utilizamos a interface do PGADMIN4 para fazer as importações da [Planilha do excel modelo .csv](https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/).
 Os codigos utilizados para fazermos as requisições estará nos arquivos acima do READM.ME tanto para o ultimo trimestre e o ultimo ano.
+
+
 
 
 
