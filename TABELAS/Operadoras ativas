@@ -1,0 +1,14 @@
+CREATE TABLE operadoras_ativas (
+    cnpj VARCHAR(14) PRIMARY KEY,
+    razao_social VARCHAR(255),
+    nome_fantasia VARCHAR(255),
+    categoria VARCHAR(100),
+    tipo_plano VARCHAR(100),
+    situacao_cadastral VARCHAR(50),
+    data_situacao DATE,
+    endereco TEXT,
+    telefone VARCHAR(20),
+    email VARCHAR(255),
+    data_registro DATE,
+    estado VARCHAR(2)
+);
