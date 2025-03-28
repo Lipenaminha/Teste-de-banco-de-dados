@@ -1,0 +1,8 @@
+CREATE TABLE demonstrativos_contabeis (
+    cnpj_operadora VARCHAR(14),
+    data DATE,
+    categoria VARCHAR(255),
+    gasto DECIMAL(15, 2),
+    PRIMARY KEY (cnpj_operadora, data, categoria),
+    FOREIGN KEY (cnpj_operadora) REFERENCES operadoras_ativas(cnpj)
+);
