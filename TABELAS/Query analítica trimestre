@@ -1,0 +1,15 @@
+SELECT 
+    o.razao_social AS operadora,
+    SUM(d.gasto) AS total_gasto
+FROM 
+    demonstrativos_contabeis d
+JOIN 
+    operadoras_ativas o ON d.cnpj_operadora = o.cnpj
+WHERE 
+    d.categoria = 'EVENTOS/ SINISTROS CONHECIDOS OU AVISADOS DE ASSISTÊNCIA A SAÚDE MEDICO HOSPITALAR'
+    AND d.data >= CURRENT_DATE - INTERVAL '3 months'
+GROUP BY 
+    o.razao_social
+ORDER BY 
+    total_gasto DESC
+LIMIT 10;
