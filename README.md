@@ -10,7 +10,7 @@ Este repositório contém as soluções para o teste técnico da ANS, que envolv
 - **query_analitica.sql**: Queries para análise das operadoras.
 
 ### **Dados**
-A pasta [operadoras](https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/) contém os arquivos CSV com os dados fornecidos pela ANS:
+A pasta [operadoras](https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/) contém os arquivos CSV com os dados fornecidos pela ANS.
 A pasta [demonstrativos](https://dadosabertos.ans.gov.br/FTP/PDA/demonstracoes_contabeis/).
 - **operadoras_ativas.csv**: Dados cadastrais das operadoras ativas.
 - **demonstracoes_contabeis/**: Dados financeiros das operadoras.
